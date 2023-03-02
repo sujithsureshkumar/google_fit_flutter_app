@@ -28,13 +28,13 @@ class _CaloriesDataState extends State<CaloriesData> {
 
     // define the types to get
     final types = [
-      HealthDataType.STEPS,
-      HealthDataType.WEIGHT,
-      HealthDataType.HEIGHT,
-      HealthDataType.BLOOD_GLUCOSE,
+      //HealthDataType.STEPS,
+      // HealthDataType.WEIGHT,
+      //HealthDataType.HEIGHT,
+      //HealthDataType.BLOOD_GLUCOSE,
       HealthDataType.WORKOUT,
-      HealthDataType.BLOOD_PRESSURE_DIASTOLIC,
-      HealthDataType.BLOOD_PRESSURE_SYSTOLIC,
+      //HealthDataType.BLOOD_PRESSURE_DIASTOLIC,
+      //HealthDataType.BLOOD_PRESSURE_SYSTOLIC,
       // Uncomment these lines on iOS - only available on iOS
       // HealthDataType.AUDIOGRAM
     ];
@@ -42,12 +42,12 @@ class _CaloriesDataState extends State<CaloriesData> {
     // with coresponsing permissions
     final permissions = [
       HealthDataAccess.READ,
-      HealthDataAccess.READ,
-      HealthDataAccess.READ,
-      HealthDataAccess.READ,
-      HealthDataAccess.READ,
-      HealthDataAccess.READ,
-      HealthDataAccess.READ,
+      // HealthDataAccess.READ,
+      // HealthDataAccess.READ,
+      // HealthDataAccess.READ,
+      // HealthDataAccess.READ,
+      // HealthDataAccess.READ,
+      // HealthDataAccess.READ,
       // HealthDataAccess.READ,
     ];
 
